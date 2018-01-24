@@ -1,0 +1,4 @@
+Country,Region/State,Zip/Postal Code,Weight (and above),Shipping Price
+USA,*,*,0,5
+USA,*,*,5,10
+USA,*,*,10,15

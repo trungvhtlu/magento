@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * local.xml
+ *
+ * Local layout modifications for our local theme
+ *
+ * @category    design
+ * @package     my_theme_default
+ * @copyright   Copyright (c) 2011 Magebase.
+ */
+-->
+<layout version="0.1.0">
+	<default translate="label" module="page">
+		<reference name="head">
+
+	        <action method="addItem">
+	            <type>skin_js</type>
+	            <name>js/my_js.js</name>
+	            <params/>
+	        </action>
+
+	        <action method="addItem">
+	            <type>skin_css</type>
+	            <name>css/my_styles.css</name>
+	        </action>
+
+	        <action method="addItem">
+	            <type>skin_css</type>
+	            <name>scss/tvh_style.css</name>
+	        </action>
+			
+			<block type="core/template" name="newReferenceBlock" template="newReference.phtml" />
+			<block type="checkout/cart_minicart" name="minicart_head" template="checkout/cart/minicart.phtml" before="-">
+                <block type="checkout/cart_sidebar" name="minicart_content" template="checkout/cart/minicart/items.phtml">
+                    <action method="addItemRender"><type>default</type><block>checkout/cart_item_renderer</block><template>checkout/cart/minicart/default.phtml</template></action>
+                    <action method="addItemRender"><type>simple</type><block>checkout/cart_item_renderer</block><template>checkout/cart/minicart/default.phtml</template></action>
+                    <action method="addItemRender"><type>grouped</type><block>checkout/cart_item_renderer_grouped</block><template>checkout/cart/minicart/default.phtml</template></action>
+                    <action method="addItemRender"><type>configurable</type><block>checkout/cart_item_renderer_configurable</block><template>checkout/cart/minicart/default.phtml</template></action>
+
+                    <block type="core/text_list" name="cart_sidebar.cart_promotion" as="cart_promotion" translate="label" module="checkout">
+                        <label>Mini-cart promotion block</label>
+                    </block>
+                    <block type="core/text_list" name="cart_sidebar.extra_actions" as="extra_actions" translate="label" module="checkout">
+                        <label>Shopping Cart Sidebar Extra Actions</label>
+                    </block>
+                </block>
+            </block>
+
+	    </reference>
+    </default>	
+</layout>

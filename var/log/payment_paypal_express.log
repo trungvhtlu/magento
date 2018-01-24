@@ -1,0 +1,1590 @@
+2018-01-17T03:03:44+00:00 DEBUG (7): Array
+(
+    [url] => https://api-3t.sandbox.paypal.com/nvp
+    [getPalDetails] => Array
+        (
+            [METHOD] => getPalDetails
+            [VERSION] => 72.0
+            [USER] => ****
+            [PWD] => ****
+            [SIGNATURE] => ****
+            [BUTTONSOURCE] => Magento_Cart_Community
+        )
+
+    [response] => Array
+        (
+            [PAL] => 6JSU5Y536AVUS
+            [LOCALE] => en_US
+            [TIMESTAMP] => 2018-01-17T03:03:43Z
+            [CORRELATIONID] => dabfefd8d7e1d
+            [ACK] => Success
+            [VERSION] => 72.0
+            [BUILD] => 39206242
+        )
+
+    [__pid] => 12496
+)
+
+2018-01-17T03:04:03+00:00 DEBUG (7): Array
+(
+    [url] => https://api-3t.sandbox.paypal.com/nvp
+    [SetExpressCheckout] => Array
+        (
+            [PAYMENTACTION] => Authorization
+            [AMT] => 15.99
+            [CURRENCYCODE] => USD
+            [RETURNURL] => http://magento.trung/paypal/express/return/
+            [CANCELURL] => http://magento.trung/paypal/express/cancel/
+            [INVNUM] => 100000002
+            [SOLUTIONTYPE] => Sole
+            [GIROPAYCANCELURL] => http://magento.trung/paypal/express/cancel/
+            [GIROPAYSUCCESSURL] => http://magento.trung/checkout/onepage/success/
+            [BANKTXNPENDINGURL] => http://magento.trung/checkout/onepage/success/
+            [LOCALECODE] => en_US
+            [REQBILLINGADDRESS] => 1
+            [ITEMAMT] => 15.99
+            [TAXAMT] => 0.00
+            [SHIPPINGAMT] => 0.00
+            [L_NUMBER0] => zarashirt2018hn0001
+            [L_NAME0] => FLORAL PRINT SHIRT
+            [L_QTY0] => 1
+            [L_AMT0] => 15.99
+            [METHOD] => SetExpressCheckout
+            [VERSION] => 72.0
+            [USER] => ****
+            [PWD] => ****
+            [SIGNATURE] => ****
+            [BUTTONSOURCE] => Magento_Cart_Community
+        )
+
+    [response] => Array
+        (
+            [TIMESTAMP] => 2018-01-17T03:04:02Z
+            [CORRELATIONID] => a18e21cb410a6
+            [ACK] => Failure
+            [VERSION] => 72.0
+            [BUILD] => 000000
+            [L_ERRORCODE0] => 11601
+            [L_SHORTMESSAGE0] => Request for billing address failed
+            [L_LONGMESSAGE0] => Billing address request is not enabled for merchant
+            [L_SEVERITYCODE0] => Error
+        )
+
+    [__pid] => 12496
+)
+
+2018-01-17T03:04:41+00:00 DEBUG (7): Array
+(
+    [url] => https://api-3t.sandbox.paypal.com/nvp
+    [SetExpressCheckout] => Array
+        (
+            [PAYMENTACTION] => Authorization
+            [AMT] => 15.99
+            [CURRENCYCODE] => USD
+            [RETURNURL] => http://magento.trung/paypal/express/return/
+            [CANCELURL] => http://magento.trung/paypal/express/cancel/
+            [INVNUM] => 100000002
+            [SOLUTIONTYPE] => Sole
+            [GIROPAYCANCELURL] => http://magento.trung/paypal/express/cancel/
+            [GIROPAYSUCCESSURL] => http://magento.trung/checkout/onepage/success/
+            [BANKTXNPENDINGURL] => http://magento.trung/checkout/onepage/success/
+            [LOCALECODE] => en_US
+            [REQBILLINGADDRESS] => 1
+            [USERSELECTEDFUNDINGSOURCE] => BML
+            [ITEMAMT] => 15.99
+            [TAXAMT] => 0.00
+            [SHIPPINGAMT] => 0.00
+            [L_NUMBER0] => zarashirt2018hn0001
+            [L_NAME0] => FLORAL PRINT SHIRT
+            [L_QTY0] => 1
+            [L_AMT0] => 15.99
+            [BUSINESS] => 
+            [NOTETEXT] => 
+            [EMAIL] => trungvh23@gmail.com
+            [FIRSTNAME] => Trung
+            [LASTNAME] => Vu
+            [MIDDLENAME] => 
+            [SALUTATION] => 
+            [SUFFIX] => 
+            [COUNTRYCODE] => VN
+            [STATE] => Hanoi
+            [CITY] => Hanoi
+            [STREET] => 1A Hùng Vương
+            [ZIP] => 04
+            [PHONENUM] => 0985163396
+            [SHIPTOCOUNTRYCODE] => VN
+            [SHIPTOSTATE] => Hanoi
+            [SHIPTOCITY] => Hanoi
+            [SHIPTOSTREET] => 1A Hùng Vương
+            [SHIPTOZIP] => 04
+            [SHIPTOPHONENUM] => 0985163396
+            [SHIPTOSTREET2] => 
+            [STREET2] => 
+            [SHIPTONAME] => Trung Vu
+            [ADDROVERRIDE] => 1
+            [METHOD] => SetExpressCheckout
+            [VERSION] => 72.0
+            [USER] => ****
+            [PWD] => ****
+            [SIGNATURE] => ****
+            [BUTTONSOURCE] => Magento_Cart_Community
+        )
+
+    [response] => Array
+        (
+            [TIMESTAMP] => 2018-01-17T03:04:40Z
+            [CORRELATIONID] => f3b350f1d1b9a
+            [ACK] => Failure
+            [VERSION] => 72.0
+            [BUILD] => 000000
+            [L_ERRORCODE0] => 11601
+            [L_SHORTMESSAGE0] => Request for billing address failed
+            [L_LONGMESSAGE0] => Billing address request is not enabled for merchant
+            [L_SEVERITYCODE0] => Error
+        )
+
+    [__pid] => 12496
+)
+
+2018-01-17T03:07:38+00:00 DEBUG (7): Array
+(
+    [url] => https://api-3t.sandbox.paypal.com/nvp
+    [getPalDetails] => Array
+        (
+            [METHOD] => getPalDetails
+            [VERSION] => 72.0
+            [USER] => ****
+            [PWD] => ****
+            [SIGNATURE] => ****
+            [BUTTONSOURCE] => Magento_Cart_Community
+        )
+
+    [response] => Array
+        (
+            [PAL] => 6JSU5Y536AVUS
+            [LOCALE] => en_US
+            [TIMESTAMP] => 2018-01-17T03:07:37Z
+            [CORRELATIONID] => 5133c09180c6d
+            [ACK] => Success
+            [VERSION] => 72.0
+            [BUILD] => 39206242
+        )
+
+    [__pid] => 12496
+)
+
+2018-01-17T03:07:44+00:00 DEBUG (7): Array
+(
+    [url] => https://api-3t.sandbox.paypal.com/nvp
+    [SetExpressCheckout] => Array
+        (
+            [PAYMENTACTION] => Authorization
+            [AMT] => 15.99
+            [CURRENCYCODE] => USD
+            [RETURNURL] => http://magento.trung/paypal/express/return/
+            [CANCELURL] => http://magento.trung/paypal/express/cancel/
+            [INVNUM] => 100000002
+            [SOLUTIONTYPE] => Sole
+            [GIROPAYCANCELURL] => http://magento.trung/paypal/express/cancel/
+            [GIROPAYSUCCESSURL] => http://magento.trung/checkout/onepage/success/
+            [BANKTXNPENDINGURL] => http://magento.trung/checkout/onepage/success/
+            [LOCALECODE] => en_US
+            [ITEMAMT] => 15.99
+            [TAXAMT] => 0.00
+            [SHIPPINGAMT] => 0.00
+            [L_NUMBER0] => zarashirt2018hn0001
+            [L_NAME0] => FLORAL PRINT SHIRT
+            [L_QTY0] => 1
+            [L_AMT0] => 15.99
+            [BUSINESS] => 
+            [NOTETEXT] => 
+            [EMAIL] => trungvh23@gmail.com
+            [FIRSTNAME] => Trung
+            [LASTNAME] => Vu
+            [MIDDLENAME] => 
+            [SALUTATION] => 
+            [SUFFIX] => 
+            [COUNTRYCODE] => VN
+            [STATE] => Hanoi
+            [CITY] => Hanoi
+            [STREET] => 1A Hùng Vương
+            [ZIP] => 04
+            [PHONENUM] => 0985163396
+            [SHIPTOCOUNTRYCODE] => VN
+            [SHIPTOSTATE] => Hanoi
+            [SHIPTOCITY] => Hanoi
+            [SHIPTOSTREET] => 1A Hùng Vương
+            [SHIPTOZIP] => 04
+            [SHIPTOPHONENUM] => 0985163396
+            [SHIPTOSTREET2] => 
+            [STREET2] => 
+            [SHIPTONAME] => Trung Vu
+            [ADDROVERRIDE] => 1
+            [METHOD] => SetExpressCheckout
+            [VERSION] => 72.0
+            [USER] => ****
+            [PWD] => ****
+            [SIGNATURE] => ****
+            [BUTTONSOURCE] => Magento_Cart_Community
+        )
+
+    [response] => Array
+        (
+            [TOKEN] => EC-6CB3111069516193C
+            [TIMESTAMP] => 2018-01-17T03:07:43Z
+            [CORRELATIONID] => 6f402b9a3d31f
+            [ACK] => Success
+            [VERSION] => 72.0
+            [BUILD] => 000000
+        )
+
+    [__pid] => 12496
+)
+
+2018-01-17T03:10:21+00:00 DEBUG (7): Array
+(
+    [url] => https://api-3t.sandbox.paypal.com/nvp
+    [SetExpressCheckout] => Array
+        (
+            [PAYMENTACTION] => Authorization
+            [AMT] => 20.99
+            [CURRENCYCODE] => USD
+            [RETURNURL] => http://magento.trung/paypal/express/return/
+            [CANCELURL] => http://magento.trung/paypal/express/cancel/
+            [INVNUM] => 100000002
+            [SOLUTIONTYPE] => Sole
+            [GIROPAYCANCELURL] => http://magento.trung/paypal/express/cancel/
+            [GIROPAYSUCCESSURL] => http://magento.trung/checkout/onepage/success/
+            [BANKTXNPENDINGURL] => http://magento.trung/checkout/onepage/success/
+            [LOCALECODE] => en_US
+            [USERSELECTEDFUNDINGSOURCE] => BML
+            [ITEMAMT] => 15.99
+            [TAXAMT] => 0.00
+            [SHIPPINGAMT] => 5.00
+            [L_NUMBER0] => zarashirt2018hn0001
+            [L_NAME0] => FLORAL PRINT SHIRT
+            [L_QTY0] => 1
+            [L_AMT0] => 15.99
+            [BUSINESS] => 
+            [NOTETEXT] => 
+            [EMAIL] => trungvh23@gmail.com
+            [FIRSTNAME] => Trung
+            [LASTNAME] => Vu
+            [MIDDLENAME] => 
+            [SALUTATION] => 
+            [SUFFIX] => 
+            [COUNTRYCODE] => VN
+            [STATE] => Hanoi
+            [CITY] => Hanoi
+            [STREET] => 1A Hùng Vương
+            [ZIP] => 04
+            [PHONENUM] => 0985163396
+            [SHIPTOCOUNTRYCODE] => VN
+            [SHIPTOSTATE] => Hanoi
+            [SHIPTOCITY] => Hanoi
+            [SHIPTOSTREET] => 1A Hùng Vương
+            [SHIPTOZIP] => 04
+            [SHIPTOPHONENUM] => 0985163396
+            [SHIPTOSTREET2] => 
+            [STREET2] => 
+            [SHIPTONAME] => Trung Vu
+            [ADDROVERRIDE] => 1
+            [METHOD] => SetExpressCheckout
+            [VERSION] => 72.0
+            [USER] => ****
+            [PWD] => ****
+            [SIGNATURE] => ****
+            [BUTTONSOURCE] => Magento_Cart_Community
+        )
+
+    [response] => Array
+        (
+            [TOKEN] => EC-7WV195264D723324M
+            [TIMESTAMP] => 2018-01-17T03:10:20Z
+            [CORRELATIONID] => 6e0a212392e65
+            [ACK] => Success
+            [VERSION] => 72.0
+            [BUILD] => 000000
+        )
+
+    [__pid] => 12496
+)
+
+2018-01-17T03:15:43+00:00 DEBUG (7): Array
+(
+    [url] => https://api-3t.sandbox.paypal.com/nvp
+    [SetExpressCheckout] => Array
+        (
+            [PAYMENTACTION] => Authorization
+            [AMT] => 20.99
+            [CURRENCYCODE] => USD
+            [RETURNURL] => http://magento.trung/paypal/express/return/
+            [CANCELURL] => http://magento.trung/paypal/express/cancel/
+            [INVNUM] => 100000002
+            [SOLUTIONTYPE] => Sole
+            [GIROPAYCANCELURL] => http://magento.trung/paypal/express/cancel/
+            [GIROPAYSUCCESSURL] => http://magento.trung/checkout/onepage/success/
+            [BANKTXNPENDINGURL] => http://magento.trung/checkout/onepage/success/
+            [LOCALECODE] => en_US
+            [USERSELECTEDFUNDINGSOURCE] => BML
+            [ITEMAMT] => 15.99
+            [TAXAMT] => 0.00
+            [SHIPPINGAMT] => 5.00
+            [L_NUMBER0] => zarashirt2018hn0001
+            [L_NAME0] => FLORAL PRINT SHIRT
+            [L_QTY0] => 1
+            [L_AMT0] => 15.99
+            [BUSINESS] => 
+            [NOTETEXT] => 
+            [EMAIL] => trungvh23@gmail.com
+            [FIRSTNAME] => Trung
+            [LASTNAME] => Vu
+            [MIDDLENAME] => 
+            [SALUTATION] => 
+            [SUFFIX] => 
+            [COUNTRYCODE] => VN
+            [STATE] => Hanoi
+            [CITY] => Hanoi
+            [STREET] => 1A Hùng Vương
+            [ZIP] => 04
+            [PHONENUM] => 0985163396
+            [SHIPTOCOUNTRYCODE] => VN
+            [SHIPTOSTATE] => Hanoi
+            [SHIPTOCITY] => Hanoi
+            [SHIPTOSTREET] => 1A Hùng Vương
+            [SHIPTOZIP] => 04
+            [SHIPTOPHONENUM] => 0985163396
+            [SHIPTOSTREET2] => 
+            [STREET2] => 
+            [SHIPTONAME] => Trung Vu
+            [ADDROVERRIDE] => 1
+            [METHOD] => SetExpressCheckout
+            [VERSION] => 72.0
+            [USER] => ****
+            [PWD] => ****
+            [SIGNATURE] => ****
+            [BUTTONSOURCE] => Magento_Cart_Community
+        )
+
+    [response] => Array
+        (
+            [TOKEN] => EC-3C5328693C662391V
+            [TIMESTAMP] => 2018-01-17T03:15:42Z
+            [CORRELATIONID] => 60100d66472cb
+            [ACK] => Success
+            [VERSION] => 72.0
+            [BUILD] => 000000
+        )
+
+    [__pid] => 12496
+)
+
+2018-01-17T03:20:13+00:00 DEBUG (7): Array
+(
+    [url] => https://api-3t.sandbox.paypal.com/nvp
+    [SetExpressCheckout] => Array
+        (
+            [PAYMENTACTION] => Authorization
+            [AMT] => 15.99
+            [CURRENCYCODE] => USD
+            [RETURNURL] => http://magento.trung/paypal/express/return/
+            [CANCELURL] => http://magento.trung/paypal/express/cancel/
+            [INVNUM] => 100000002
+            [SOLUTIONTYPE] => Sole
+            [GIROPAYCANCELURL] => http://magento.trung/paypal/express/cancel/
+            [GIROPAYSUCCESSURL] => http://magento.trung/checkout/onepage/success/
+            [BANKTXNPENDINGURL] => http://magento.trung/checkout/onepage/success/
+            [LOCALECODE] => en_US
+            [ITEMAMT] => 15.99
+            [TAXAMT] => 0.00
+            [SHIPPINGAMT] => 0.00
+            [L_NUMBER0] => zarashirt2018hn0001
+            [L_NAME0] => FLORAL PRINT SHIRT
+            [L_QTY0] => 1
+            [L_AMT0] => 15.99
+            [BUSINESS] => 
+            [NOTETEXT] => 
+            [EMAIL] => trungvh23@gmail.com
+            [FIRSTNAME] => Trung
+            [LASTNAME] => Vu
+            [MIDDLENAME] => 
+            [SALUTATION] => 
+            [SUFFIX] => 
+            [COUNTRYCODE] => VN
+            [STATE] => Hanoi
+            [CITY] => Hanoi
+            [STREET] => 1A Hùng Vương
+            [ZIP] => 04
+            [PHONENUM] => 0985163396
+            [SHIPTOCOUNTRYCODE] => VN
+            [SHIPTOSTATE] => Hanoi
+            [SHIPTOCITY] => Hanoi
+            [SHIPTOSTREET] => 1A Hùng Vương
+            [SHIPTOZIP] => 04
+            [SHIPTOPHONENUM] => 0985163396
+            [SHIPTOSTREET2] => 
+            [STREET2] => 
+            [SHIPTONAME] => Trung Vu
+            [ADDROVERRIDE] => 1
+            [METHOD] => SetExpressCheckout
+            [VERSION] => 72.0
+            [USER] => ****
+            [PWD] => ****
+            [SIGNATURE] => ****
+            [BUTTONSOURCE] => Magento_Cart_Community
+        )
+
+    [response] => Array
+        (
+            [TOKEN] => EC-8RR87636BT630422K
+            [TIMESTAMP] => 2018-01-17T03:20:12Z
+            [CORRELATIONID] => 736bf1409add7
+            [ACK] => Success
+            [VERSION] => 72.0
+            [BUILD] => 000000
+        )
+
+    [__pid] => 12496
+)
+
+2018-01-17T03:38:27+00:00 DEBUG (7): Array
+(
+    [url] => https://api-3t.sandbox.paypal.com/nvp
+    [getPalDetails] => Array
+        (
+            [METHOD] => getPalDetails
+            [VERSION] => 72.0
+            [USER] => ****
+            [PWD] => ****
+            [SIGNATURE] => ****
+            [BUTTONSOURCE] => Magento_Cart_Community
+        )
+
+    [response] => Array
+        (
+            [PAL] => 6JSU5Y536AVUS
+            [LOCALE] => en_US
+            [TIMESTAMP] => 2018-01-17T03:38:26Z
+            [CORRELATIONID] => cf611eb8ebf53
+            [ACK] => Success
+            [VERSION] => 72.0
+            [BUILD] => 39206242
+        )
+
+    [__pid] => 12496
+)
+
+2018-01-17T03:38:44+00:00 DEBUG (7): Array
+(
+    [url] => https://api-3t.sandbox.paypal.com/nvp
+    [SetExpressCheckout] => Array
+        (
+            [PAYMENTACTION] => Authorization
+            [AMT] => 15.99
+            [CURRENCYCODE] => USD
+            [RETURNURL] => http://magento.trung/paypal/express/return/
+            [CANCELURL] => http://magento.trung/paypal/express/cancel/
+            [INVNUM] => 100000003
+            [SOLUTIONTYPE] => Sole
+            [GIROPAYCANCELURL] => http://magento.trung/paypal/express/cancel/
+            [GIROPAYSUCCESSURL] => http://magento.trung/checkout/onepage/success/
+            [BANKTXNPENDINGURL] => http://magento.trung/checkout/onepage/success/
+            [LOCALECODE] => en_US
+            [ITEMAMT] => 15.99
+            [TAXAMT] => 0.00
+            [SHIPPINGAMT] => 0.00
+            [L_NUMBER0] => zarashirt2018hn0001
+            [L_NAME0] => FLORAL PRINT SHIRT
+            [L_QTY0] => 1
+            [L_AMT0] => 15.99
+            [METHOD] => SetExpressCheckout
+            [VERSION] => 72.0
+            [USER] => ****
+            [PWD] => ****
+            [SIGNATURE] => ****
+            [BUTTONSOURCE] => Magento_Cart_Community
+        )
+
+    [response] => Array
+        (
+            [TOKEN] => EC-811430689H2317939
+            [TIMESTAMP] => 2018-01-17T03:38:43Z
+            [CORRELATIONID] => 4a8c2cde913fb
+            [ACK] => Success
+            [VERSION] => 72.0
+            [BUILD] => 000000
+        )
+
+    [__pid] => 12496
+)
+
+2018-01-17T03:39:55+00:00 DEBUG (7): Array
+(
+    [url] => https://api-3t.sandbox.paypal.com/nvp
+    [GetExpressCheckoutDetails] => Array
+        (
+            [TOKEN] => EC-811430689H2317939
+            [METHOD] => GetExpressCheckoutDetails
+            [VERSION] => 72.0
+            [USER] => ****
+            [PWD] => ****
+            [SIGNATURE] => ****
+            [BUTTONSOURCE] => Magento_Cart_Community
+        )
+
+    [response] => Array
+        (
+            [TOKEN] => EC-811430689H2317939
+            [BILLINGAGREEMENTACCEPTEDSTATUS] => 0
+            [CHECKOUTSTATUS] => PaymentActionNotInitiated
+            [TIMESTAMP] => 2018-01-17T03:39:54Z
+            [CORRELATIONID] => 1a8819a62de
+            [ACK] => Success
+            [VERSION] => 72.0
+            [BUILD] => 000000
+            [EMAIL] => trungvh23@gmail.com
+            [PAYERID] => AK6V6BUKQDK38
+            [PAYERSTATUS] => unverified
+            [FIRSTNAME] => Trung
+            [LASTNAME] => Vu
+            [COUNTRYCODE] => US
+            [SHIPTONAME] => Trung Vu
+            [SHIPTOSTREET] => 1 Main St
+            [SHIPTOCITY] => San Jose
+            [SHIPTOSTATE] => CA
+            [SHIPTOZIP] => 95131
+            [SHIPTOCOUNTRYCODE] => US
+            [SHIPTOCOUNTRYNAME] => United States
+            [ADDRESSSTATUS] => Confirmed
+            [CURRENCYCODE] => USD
+            [AMT] => 15.99
+            [ITEMAMT] => 15.99
+            [SHIPPINGAMT] => 0.00
+            [HANDLINGAMT] => 0.00
+            [TAXAMT] => 0.00
+            [INVNUM] => 100000003
+            [INSURANCEAMT] => 0.00
+            [SHIPDISCAMT] => 0.00
+            [INSURANCEOPTIONOFFERED] => false
+            [L_NAME0] => FLORAL PRINT SHIRT
+            [L_NUMBER0] => zarashirt2018hn0001
+            [L_QTY0] => 1
+            [L_TAXAMT0] => 0.00
+            [L_AMT0] => 15.99
+            [PAYMENTREQUEST_0_CURRENCYCODE] => USD
+            [PAYMENTREQUEST_0_AMT] => 15.99
+            [PAYMENTREQUEST_0_ITEMAMT] => 15.99
+            [PAYMENTREQUEST_0_SHIPPINGAMT] => 0.00
+            [PAYMENTREQUEST_0_HANDLINGAMT] => 0.00
+            [PAYMENTREQUEST_0_TAXAMT] => 0.00
+            [PAYMENTREQUEST_0_INVNUM] => 100000003
+            [PAYMENTREQUEST_0_INSURANCEAMT] => 0.00
+            [PAYMENTREQUEST_0_SHIPDISCAMT] => 0.00
+            [PAYMENTREQUEST_0_SELLERPAYPALACCOUNTID] => aococtayvg@gmail.com
+            [PAYMENTREQUEST_0_INSURANCEOPTIONOFFERED] => false
+            [PAYMENTREQUEST_0_SHIPTONAME] => Trung Vu
+            [PAYMENTREQUEST_0_SHIPTOSTREET] => 1 Main St
+            [PAYMENTREQUEST_0_SHIPTOCITY] => San Jose
+            [PAYMENTREQUEST_0_SHIPTOSTATE] => CA
+            [PAYMENTREQUEST_0_SHIPTOZIP] => 95131
+            [PAYMENTREQUEST_0_SHIPTOCOUNTRYCODE] => US
+            [PAYMENTREQUEST_0_SHIPTOCOUNTRYNAME] => United States
+            [PAYMENTREQUEST_0_ADDRESSSTATUS] => Confirmed
+            [L_PAYMENTREQUEST_0_NAME0] => FLORAL PRINT SHIRT
+            [L_PAYMENTREQUEST_0_NUMBER0] => zarashirt2018hn0001
+            [L_PAYMENTREQUEST_0_QTY0] => 1
+            [L_PAYMENTREQUEST_0_TAXAMT0] => 0.00
+            [L_PAYMENTREQUEST_0_AMT0] => 15.99
+            [PAYMENTREQUESTINFO_0_ERRORCODE] => 0
+        )
+
+    [__pid] => 12496
+)
+
+2018-01-17T03:40:39+00:00 DEBUG (7): Array
+(
+    [url] => https://api-3t.sandbox.paypal.com/nvp
+    [DoExpressCheckoutPayment] => Array
+        (
+            [TOKEN] => EC-811430689H2317939
+            [PAYERID] => AK6V6BUKQDK38
+            [PAYMENTACTION] => Authorization
+            [AMT] => 20.99
+            [CURRENCYCODE] => USD
+            [BUTTONSOURCE] => Magento_Cart_Community
+            [NOTIFYURL] => http://magento.trung/paypal/ipn/
+            [RETURNFMFDETAILS] => 1
+            [ITEMAMT] => 15.99
+            [TAXAMT] => 0.00
+            [SHIPPINGAMT] => 5.00
+            [L_NUMBER0] => zarashirt2018hn0001
+            [L_NAME0] => FLORAL PRINT SHIRT
+            [L_QTY0] => 1
+            [L_AMT0] => 15.99
+            [METHOD] => DoExpressCheckoutPayment
+            [VERSION] => 72.0
+            [USER] => ****
+            [PWD] => ****
+            [SIGNATURE] => ****
+        )
+
+    [response] => Array
+        (
+            [TOKEN] => EC-811430689H2317939
+            [SUCCESSPAGEREDIRECTREQUESTED] => false
+            [TIMESTAMP] => 2018-01-17T03:40:38Z
+            [CORRELATIONID] => 13cbd6ae55fb8
+            [ACK] => Success
+            [VERSION] => 72.0
+            [BUILD] => 000000
+            [TRANSACTIONID] => 4PC256691W3518730
+            [TRANSACTIONTYPE] => cart
+            [PAYMENTTYPE] => instant
+            [ORDERTIME] => 2018-01-17T03:40:37Z
+            [AMT] => 20.99
+            [TAXAMT] => 0.00
+            [CURRENCYCODE] => USD
+            [PAYMENTSTATUS] => Pending
+            [PENDINGREASON] => authorization
+            [REASONCODE] => None
+            [PROTECTIONELIGIBILITY] => Eligible
+            [INSURANCEOPTIONSELECTED] => false
+            [SHIPPINGOPTIONISDEFAULT] => false
+            [PAYMENTINFO_0_TRANSACTIONID] => 4PC256691W3518730
+            [PAYMENTINFO_0_TRANSACTIONTYPE] => cart
+            [PAYMENTINFO_0_PAYMENTTYPE] => instant
+            [PAYMENTINFO_0_ORDERTIME] => 2018-01-17T03:40:37Z
+            [PAYMENTINFO_0_AMT] => 20.99
+            [PAYMENTINFO_0_TAXAMT] => 0.00
+            [PAYMENTINFO_0_CURRENCYCODE] => USD
+            [PAYMENTINFO_0_PAYMENTSTATUS] => Pending
+            [PAYMENTINFO_0_PENDINGREASON] => authorization
+            [PAYMENTINFO_0_REASONCODE] => None
+            [PAYMENTINFO_0_PROTECTIONELIGIBILITY] => Eligible
+            [PAYMENTINFO_0_PROTECTIONELIGIBILITYTYPE] => ItemNotReceivedEligible,UnauthorizedPaymentEligible
+            [PAYMENTINFO_0_SECUREMERCHANTACCOUNTID] => 6JSU5Y536AVUS
+            [PAYMENTINFO_0_ERRORCODE] => 0
+            [PAYMENTINFO_0_ACK] => Success
+        )
+
+    [__pid] => 12496
+)
+
+2018-01-17T04:02:47+00:00 DEBUG (7): Array
+(
+    [url] => https://api-3t.sandbox.paypal.com/nvp
+    [SetExpressCheckout] => Array
+        (
+            [PAYMENTACTION] => Authorization
+            [AMT] => 25.99
+            [CURRENCYCODE] => USD
+            [RETURNURL] => http://magento.trung/paypal/express/return/
+            [CANCELURL] => http://magento.trung/paypal/express/cancel/
+            [INVNUM] => 100000004
+            [SOLUTIONTYPE] => Sole
+            [GIROPAYCANCELURL] => http://magento.trung/paypal/express/cancel/
+            [GIROPAYSUCCESSURL] => http://magento.trung/checkout/onepage/success/
+            [BANKTXNPENDINGURL] => http://magento.trung/checkout/onepage/success/
+            [LOCALECODE] => en_US
+            [USERSELECTEDFUNDINGSOURCE] => BML
+            [ITEMAMT] => 25.99
+            [TAXAMT] => 0.00
+            [SHIPPINGAMT] => 0.00
+            [L_NUMBER0] => zarajean2018hn0001
+            [L_NAME0] => RIPPED JEANS WITH CHECKED PATCHES
+            [L_QTY0] => 1
+            [L_AMT0] => 25.99
+            [METHOD] => SetExpressCheckout
+            [VERSION] => 72.0
+            [USER] => ****
+            [PWD] => ****
+            [SIGNATURE] => ****
+            [BUTTONSOURCE] => Magento_Cart_Community
+        )
+
+    [response] => Array
+        (
+            [TOKEN] => EC-88V58616BJ453392B
+            [TIMESTAMP] => 2018-01-17T04:02:46Z
+            [CORRELATIONID] => 70654768bfbcb
+            [ACK] => Success
+            [VERSION] => 72.0
+            [BUILD] => 000000
+        )
+
+    [__pid] => 12496
+)
+
+2018-01-17T04:05:22+00:00 DEBUG (7): Array
+(
+    [url] => https://api-3t.sandbox.paypal.com/nvp
+    [GetExpressCheckoutDetails] => Array
+        (
+            [TOKEN] => EC-88V58616BJ453392B
+            [METHOD] => GetExpressCheckoutDetails
+            [VERSION] => 72.0
+            [USER] => ****
+            [PWD] => ****
+            [SIGNATURE] => ****
+            [BUTTONSOURCE] => Magento_Cart_Community
+        )
+
+    [response] => Array
+        (
+            [TOKEN] => EC-88V58616BJ453392B
+            [BILLINGAGREEMENTACCEPTEDSTATUS] => 0
+            [CHECKOUTSTATUS] => PaymentActionNotInitiated
+            [TIMESTAMP] => 2018-01-17T04:05:21Z
+            [CORRELATIONID] => 2cbc3c48e4378
+            [ACK] => Success
+            [VERSION] => 72.0
+            [BUILD] => 000000
+            [EMAIL] => trungvh23@gmail.com
+            [PAYERID] => AK6V6BUKQDK38
+            [PAYERSTATUS] => unverified
+            [FIRSTNAME] => Trung
+            [LASTNAME] => Vu
+            [COUNTRYCODE] => US
+            [SHIPTONAME] => Trung Vu
+            [SHIPTOSTREET] => 1 Main St
+            [SHIPTOCITY] => San Jose
+            [SHIPTOSTATE] => CA
+            [SHIPTOZIP] => 95131
+            [SHIPTOCOUNTRYCODE] => US
+            [SHIPTOCOUNTRYNAME] => United States
+            [ADDRESSSTATUS] => Confirmed
+            [CURRENCYCODE] => USD
+            [AMT] => 25.99
+            [ITEMAMT] => 25.99
+            [SHIPPINGAMT] => 0.00
+            [HANDLINGAMT] => 0.00
+            [TAXAMT] => 0.00
+            [INVNUM] => 100000004
+            [INSURANCEAMT] => 0.00
+            [SHIPDISCAMT] => 0.00
+            [INSURANCEOPTIONOFFERED] => false
+            [L_NAME0] => RIPPED JEANS WITH CHECKED PATCHES
+            [L_NUMBER0] => zarajean2018hn0001
+            [L_QTY0] => 1
+            [L_TAXAMT0] => 0.00
+            [L_AMT0] => 25.99
+            [PAYMENTREQUEST_0_CURRENCYCODE] => USD
+            [PAYMENTREQUEST_0_AMT] => 25.99
+            [PAYMENTREQUEST_0_ITEMAMT] => 25.99
+            [PAYMENTREQUEST_0_SHIPPINGAMT] => 0.00
+            [PAYMENTREQUEST_0_HANDLINGAMT] => 0.00
+            [PAYMENTREQUEST_0_TAXAMT] => 0.00
+            [PAYMENTREQUEST_0_INVNUM] => 100000004
+            [PAYMENTREQUEST_0_INSURANCEAMT] => 0.00
+            [PAYMENTREQUEST_0_SHIPDISCAMT] => 0.00
+            [PAYMENTREQUEST_0_SELLERPAYPALACCOUNTID] => aococtayvg@gmail.com
+            [PAYMENTREQUEST_0_INSURANCEOPTIONOFFERED] => false
+            [PAYMENTREQUEST_0_SHIPTONAME] => Trung Vu
+            [PAYMENTREQUEST_0_SHIPTOSTREET] => 1 Main St
+            [PAYMENTREQUEST_0_SHIPTOCITY] => San Jose
+            [PAYMENTREQUEST_0_SHIPTOSTATE] => CA
+            [PAYMENTREQUEST_0_SHIPTOZIP] => 95131
+            [PAYMENTREQUEST_0_SHIPTOCOUNTRYCODE] => US
+            [PAYMENTREQUEST_0_SHIPTOCOUNTRYNAME] => United States
+            [PAYMENTREQUEST_0_ADDRESSSTATUS] => Confirmed
+            [L_PAYMENTREQUEST_0_NAME0] => RIPPED JEANS WITH CHECKED PATCHES
+            [L_PAYMENTREQUEST_0_NUMBER0] => zarajean2018hn0001
+            [L_PAYMENTREQUEST_0_QTY0] => 1
+            [L_PAYMENTREQUEST_0_TAXAMT0] => 0.00
+            [L_PAYMENTREQUEST_0_AMT0] => 25.99
+            [PAYMENTREQUESTINFO_0_ERRORCODE] => 0
+        )
+
+    [__pid] => 12496
+)
+
+2018-01-17T04:05:58+00:00 DEBUG (7): Array
+(
+    [url] => https://api-3t.sandbox.paypal.com/nvp
+    [DoExpressCheckoutPayment] => Array
+        (
+            [TOKEN] => EC-88V58616BJ453392B
+            [PAYERID] => AK6V6BUKQDK38
+            [PAYMENTACTION] => Authorization
+            [AMT] => 28.13
+            [CURRENCYCODE] => USD
+            [BUTTONSOURCE] => Magento_Cart_Community
+            [NOTIFYURL] => http://magento.trung/paypal/ipn/
+            [RETURNFMFDETAILS] => 1
+            [ITEMAMT] => 25.99
+            [TAXAMT] => 2.14
+            [SHIPPINGAMT] => 0.00
+            [L_NUMBER0] => zarajean2018hn0001
+            [L_NAME0] => RIPPED JEANS WITH CHECKED PATCHES
+            [L_QTY0] => 1
+            [L_AMT0] => 25.99
+            [METHOD] => DoExpressCheckoutPayment
+            [VERSION] => 72.0
+            [USER] => ****
+            [PWD] => ****
+            [SIGNATURE] => ****
+        )
+
+    [response] => Array
+        (
+            [TOKEN] => EC-88V58616BJ453392B
+            [SUCCESSPAGEREDIRECTREQUESTED] => false
+            [TIMESTAMP] => 2018-01-17T04:05:57Z
+            [CORRELATIONID] => 774f455a3732b
+            [ACK] => Success
+            [VERSION] => 72.0
+            [BUILD] => 000000
+            [TRANSACTIONID] => 2NP135792F621682T
+            [TRANSACTIONTYPE] => cart
+            [PAYMENTTYPE] => instant
+            [ORDERTIME] => 2018-01-17T04:05:56Z
+            [AMT] => 28.13
+            [TAXAMT] => 2.14
+            [CURRENCYCODE] => USD
+            [PAYMENTSTATUS] => Pending
+            [PENDINGREASON] => authorization
+            [REASONCODE] => None
+            [PROTECTIONELIGIBILITY] => Eligible
+            [INSURANCEOPTIONSELECTED] => false
+            [SHIPPINGOPTIONISDEFAULT] => false
+            [PAYMENTINFO_0_TRANSACTIONID] => 2NP135792F621682T
+            [PAYMENTINFO_0_TRANSACTIONTYPE] => cart
+            [PAYMENTINFO_0_PAYMENTTYPE] => instant
+            [PAYMENTINFO_0_ORDERTIME] => 2018-01-17T04:05:56Z
+            [PAYMENTINFO_0_AMT] => 28.13
+            [PAYMENTINFO_0_TAXAMT] => 2.14
+            [PAYMENTINFO_0_CURRENCYCODE] => USD
+            [PAYMENTINFO_0_PAYMENTSTATUS] => Pending
+            [PAYMENTINFO_0_PENDINGREASON] => authorization
+            [PAYMENTINFO_0_REASONCODE] => None
+            [PAYMENTINFO_0_PROTECTIONELIGIBILITY] => Eligible
+            [PAYMENTINFO_0_PROTECTIONELIGIBILITYTYPE] => ItemNotReceivedEligible,UnauthorizedPaymentEligible
+            [PAYMENTINFO_0_SECUREMERCHANTACCOUNTID] => 6JSU5Y536AVUS
+            [PAYMENTINFO_0_ERRORCODE] => 0
+            [PAYMENTINFO_0_ACK] => Success
+        )
+
+    [__pid] => 12496
+)
+
+2018-01-18T02:52:15+00:00 DEBUG (7): Array
+(
+    [url] => https://api-3t.sandbox.paypal.com/nvp
+    [getPalDetails] => Array
+        (
+            [METHOD] => getPalDetails
+            [VERSION] => 72.0
+            [USER] => ****
+            [PWD] => ****
+            [SIGNATURE] => ****
+            [BUTTONSOURCE] => Magento_Cart_Community
+        )
+
+    [response] => Array
+        (
+            [PAL] => 6JSU5Y536AVUS
+            [LOCALE] => en_US
+            [TIMESTAMP] => 2018-01-18T02:52:13Z
+            [CORRELATIONID] => c5ea1e7cc4d55
+            [ACK] => Success
+            [VERSION] => 72.0
+            [BUILD] => 39206242
+        )
+
+    [__pid] => 9984
+)
+
+2018-01-18T02:52:48+00:00 DEBUG (7): Array
+(
+    [url] => https://api-3t.sandbox.paypal.com/nvp
+    [SetExpressCheckout] => Array
+        (
+            [PAYMENTACTION] => Authorization
+            [AMT] => 14.98
+            [CURRENCYCODE] => USD
+            [RETURNURL] => http://magento.trung/paypal/express/return/
+            [CANCELURL] => http://magento.trung/paypal/express/cancel/
+            [INVNUM] => 100000005
+            [SOLUTIONTYPE] => Sole
+            [NOSHIPPING] => 1
+            [GIROPAYCANCELURL] => http://magento.trung/paypal/express/cancel/
+            [GIROPAYSUCCESSURL] => http://magento.trung/checkout/onepage/success/
+            [BANKTXNPENDINGURL] => http://magento.trung/checkout/onepage/success/
+            [LOCALECODE] => en_US
+            [ITEMAMT] => 14.98
+            [TAXAMT] => 0.00
+            [SHIPPINGAMT] => 0.00
+            [L_NUMBER0] => zaradownloadable2018hn0001
+            [L_NAME0] => Downloadable Áo
+            [L_QTY0] => 1
+            [L_AMT0] => 14.98
+            [METHOD] => SetExpressCheckout
+            [VERSION] => 72.0
+            [USER] => ****
+            [PWD] => ****
+            [SIGNATURE] => ****
+            [BUTTONSOURCE] => Magento_Cart_Community
+        )
+
+    [response] => Array
+        (
+            [TOKEN] => EC-7JC38328SN6215415
+            [TIMESTAMP] => 2018-01-18T02:52:47Z
+            [CORRELATIONID] => 987ffab0a4897
+            [ACK] => Success
+            [VERSION] => 72.0
+            [BUILD] => 000000
+        )
+
+    [__pid] => 9984
+)
+
+2018-01-18T02:55:12+00:00 DEBUG (7): Array
+(
+    [url] => https://api-3t.sandbox.paypal.com/nvp
+    [GetExpressCheckoutDetails] => Array
+        (
+            [TOKEN] => EC-7JC38328SN6215415
+            [METHOD] => GetExpressCheckoutDetails
+            [VERSION] => 72.0
+            [USER] => ****
+            [PWD] => ****
+            [SIGNATURE] => ****
+            [BUTTONSOURCE] => Magento_Cart_Community
+        )
+
+    [response] => Array
+        (
+            [TOKEN] => EC-7JC38328SN6215415
+            [BILLINGAGREEMENTACCEPTEDSTATUS] => 0
+            [CHECKOUTSTATUS] => PaymentActionNotInitiated
+            [TIMESTAMP] => 2018-01-18T02:55:11Z
+            [CORRELATIONID] => 61ab1634db565
+            [ACK] => Success
+            [VERSION] => 72.0
+            [BUILD] => 000000
+            [EMAIL] => trungvh23@gmail.com
+            [PAYERID] => AK6V6BUKQDK38
+            [PAYERSTATUS] => unverified
+            [FIRSTNAME] => Trung
+            [LASTNAME] => Vu
+            [COUNTRYCODE] => US
+            [ADDRESSSTATUS] => Confirmed
+            [CURRENCYCODE] => USD
+            [AMT] => 14.98
+            [ITEMAMT] => 14.98
+            [SHIPPINGAMT] => 0.00
+            [HANDLINGAMT] => 0.00
+            [TAXAMT] => 0.00
+            [INVNUM] => 100000005
+            [INSURANCEAMT] => 0.00
+            [SHIPDISCAMT] => 0.00
+            [INSURANCEOPTIONOFFERED] => false
+            [L_NAME0] => Downloadable Áo
+            [L_NUMBER0] => zaradownloadable2018hn0001
+            [L_QTY0] => 1
+            [L_TAXAMT0] => 0.00
+            [L_AMT0] => 14.98
+            [PAYMENTREQUEST_0_CURRENCYCODE] => USD
+            [PAYMENTREQUEST_0_AMT] => 14.98
+            [PAYMENTREQUEST_0_ITEMAMT] => 14.98
+            [PAYMENTREQUEST_0_SHIPPINGAMT] => 0.00
+            [PAYMENTREQUEST_0_HANDLINGAMT] => 0.00
+            [PAYMENTREQUEST_0_TAXAMT] => 0.00
+            [PAYMENTREQUEST_0_INVNUM] => 100000005
+            [PAYMENTREQUEST_0_INSURANCEAMT] => 0.00
+            [PAYMENTREQUEST_0_SHIPDISCAMT] => 0.00
+            [PAYMENTREQUEST_0_SELLERPAYPALACCOUNTID] => aococtayvg@gmail.com
+            [PAYMENTREQUEST_0_INSURANCEOPTIONOFFERED] => false
+            [L_PAYMENTREQUEST_0_NAME0] => Downloadable Áo
+            [L_PAYMENTREQUEST_0_NUMBER0] => zaradownloadable2018hn0001
+            [L_PAYMENTREQUEST_0_QTY0] => 1
+            [L_PAYMENTREQUEST_0_TAXAMT0] => 0.00
+            [L_PAYMENTREQUEST_0_AMT0] => 14.98
+            [PAYMENTREQUESTINFO_0_ERRORCODE] => 0
+        )
+
+    [__pid] => 9984
+)
+
+2018-01-18T02:55:37+00:00 DEBUG (7): Array
+(
+    [url] => https://api-3t.sandbox.paypal.com/nvp
+    [DoExpressCheckoutPayment] => Array
+        (
+            [TOKEN] => EC-7JC38328SN6215415
+            [PAYERID] => AK6V6BUKQDK38
+            [PAYMENTACTION] => Authorization
+            [AMT] => 14.98
+            [CURRENCYCODE] => USD
+            [BUTTONSOURCE] => Magento_Cart_Community
+            [NOTIFYURL] => http://magento.trung/paypal/ipn/
+            [RETURNFMFDETAILS] => 1
+            [ITEMAMT] => 14.98
+            [TAXAMT] => 0.00
+            [SHIPPINGAMT] => 0.00
+            [L_NUMBER0] => zaradownloadable2018hn0001
+            [L_NAME0] => Downloadable Áo
+            [L_QTY0] => 1
+            [L_AMT0] => 14.98
+            [METHOD] => DoExpressCheckoutPayment
+            [VERSION] => 72.0
+            [USER] => ****
+            [PWD] => ****
+            [SIGNATURE] => ****
+        )
+
+    [response] => Array
+        (
+            [TOKEN] => EC-7JC38328SN6215415
+            [SUCCESSPAGEREDIRECTREQUESTED] => false
+            [TIMESTAMP] => 2018-01-18T02:55:35Z
+            [CORRELATIONID] => 3ebd848d54dfd
+            [ACK] => Success
+            [VERSION] => 72.0
+            [BUILD] => 000000
+            [TRANSACTIONID] => 3F685176NT240890E
+            [TRANSACTIONTYPE] => cart
+            [PAYMENTTYPE] => instant
+            [ORDERTIME] => 2018-01-18T02:55:34Z
+            [AMT] => 14.98
+            [TAXAMT] => 0.00
+            [CURRENCYCODE] => USD
+            [PAYMENTSTATUS] => Pending
+            [PENDINGREASON] => authorization
+            [REASONCODE] => None
+            [PROTECTIONELIGIBILITY] => Eligible
+            [INSURANCEOPTIONSELECTED] => false
+            [SHIPPINGOPTIONISDEFAULT] => false
+            [PAYMENTINFO_0_TRANSACTIONID] => 3F685176NT240890E
+            [PAYMENTINFO_0_TRANSACTIONTYPE] => cart
+            [PAYMENTINFO_0_PAYMENTTYPE] => instant
+            [PAYMENTINFO_0_ORDERTIME] => 2018-01-18T02:55:34Z
+            [PAYMENTINFO_0_AMT] => 14.98
+            [PAYMENTINFO_0_TAXAMT] => 0.00
+            [PAYMENTINFO_0_CURRENCYCODE] => USD
+            [PAYMENTINFO_0_PAYMENTSTATUS] => Pending
+            [PAYMENTINFO_0_PENDINGREASON] => authorization
+            [PAYMENTINFO_0_REASONCODE] => None
+            [PAYMENTINFO_0_PROTECTIONELIGIBILITY] => Eligible
+            [PAYMENTINFO_0_PROTECTIONELIGIBILITYTYPE] => ItemNotReceivedEligible,UnauthorizedPaymentEligible
+            [PAYMENTINFO_0_SECUREMERCHANTACCOUNTID] => 6JSU5Y536AVUS
+            [PAYMENTINFO_0_ERRORCODE] => 0
+            [PAYMENTINFO_0_ACK] => Success
+        )
+
+    [__pid] => 9984
+)
+
+2018-01-18T03:02:14+00:00 DEBUG (7): Array
+(
+    [url] => https://api-3t.sandbox.paypal.com/nvp
+    [SetExpressCheckout] => Array
+        (
+            [PAYMENTACTION] => Authorization
+            [AMT] => 249.90
+            [CURRENCYCODE] => USD
+            [RETURNURL] => http://magento.trung/paypal/express/return/
+            [CANCELURL] => http://magento.trung/paypal/express/cancel/
+            [INVNUM] => 100000006
+            [SOLUTIONTYPE] => Sole
+            [GIROPAYCANCELURL] => http://magento.trung/paypal/express/cancel/
+            [GIROPAYSUCCESSURL] => http://magento.trung/checkout/onepage/success/
+            [BANKTXNPENDINGURL] => http://magento.trung/checkout/onepage/success/
+            [LOCALECODE] => en_US
+            [ITEMAMT] => 249.90
+            [TAXAMT] => 0.00
+            [SHIPPINGAMT] => 0.00
+            [L_NUMBER0] => zarajacket2018hn0001
+            [L_NAME0] => BASIC BOMBER JACKET x10
+            [L_QTY0] => 1
+            [L_AMT0] => 249.90
+            [METHOD] => SetExpressCheckout
+            [VERSION] => 72.0
+            [USER] => ****
+            [PWD] => ****
+            [SIGNATURE] => ****
+            [BUTTONSOURCE] => Magento_Cart_Community
+        )
+
+    [response] => Array
+        (
+            [TOKEN] => EC-58Y61983NV379752E
+            [TIMESTAMP] => 2018-01-18T03:02:13Z
+            [CORRELATIONID] => fb6feb2ac25b
+            [ACK] => Success
+            [VERSION] => 72.0
+            [BUILD] => 000000
+        )
+
+    [__pid] => 9984
+)
+
+2018-01-18T04:00:53+00:00 DEBUG (7): Array
+(
+    [url] => https://api-3t.sandbox.paypal.com/nvp
+    [getPalDetails] => Array
+        (
+            [METHOD] => getPalDetails
+            [VERSION] => 72.0
+            [USER] => ****
+            [PWD] => ****
+            [SIGNATURE] => ****
+            [BUTTONSOURCE] => Magento_Cart_Community
+        )
+
+    [response] => Array
+        (
+            [PAL] => 6JSU5Y536AVUS
+            [LOCALE] => en_US
+            [TIMESTAMP] => 2018-01-18T04:00:52Z
+            [CORRELATIONID] => a0f3727b61342
+            [ACK] => Success
+            [VERSION] => 72.0
+            [BUILD] => 39206242
+        )
+
+    [__pid] => 9984
+)
+
+2018-01-18T06:32:13+00:00 DEBUG (7): Array
+(
+    [url] => https://api-3t.sandbox.paypal.com/nvp
+    [SetExpressCheckout] => Array
+        (
+            [PAYMENTACTION] => Authorization
+            [AMT] => 15.99
+            [CURRENCYCODE] => USD
+            [RETURNURL] => http://magento.trung/paypal/express/return/
+            [CANCELURL] => http://magento.trung/paypal/express/cancel/
+            [INVNUM] => 100000007
+            [SOLUTIONTYPE] => Sole
+            [GIROPAYCANCELURL] => http://magento.trung/paypal/express/cancel/
+            [GIROPAYSUCCESSURL] => http://magento.trung/checkout/onepage/success/
+            [BANKTXNPENDINGURL] => http://magento.trung/checkout/onepage/success/
+            [LOCALECODE] => en_US
+            [ITEMAMT] => 15.99
+            [TAXAMT] => 0.00
+            [SHIPPINGAMT] => 0.00
+            [L_NUMBER0] => zarashirt2018hn0001
+            [L_NAME0] => FLORAL PRINT SHIRT
+            [L_QTY0] => 1
+            [L_AMT0] => 15.99
+            [METHOD] => SetExpressCheckout
+            [VERSION] => 72.0
+            [USER] => ****
+            [PWD] => ****
+            [SIGNATURE] => ****
+            [BUTTONSOURCE] => Magento_Cart_Community
+        )
+
+    [response] => Array
+        (
+            [TOKEN] => EC-8SC926955L712663W
+            [TIMESTAMP] => 2018-01-18T06:32:11Z
+            [CORRELATIONID] => def367a1a62a8
+            [ACK] => Success
+            [VERSION] => 72.0
+            [BUILD] => 000000
+        )
+
+    [__pid] => 12684
+)
+
+2018-01-18T06:33:14+00:00 DEBUG (7): Array
+(
+    [url] => https://api-3t.sandbox.paypal.com/nvp
+    [getPalDetails] => Array
+        (
+            [METHOD] => getPalDetails
+            [VERSION] => 72.0
+            [USER] => ****
+            [PWD] => ****
+            [SIGNATURE] => ****
+            [BUTTONSOURCE] => Magento_Cart_Community
+        )
+
+    [response] => Array
+        (
+            [PAL] => 6JSU5Y536AVUS
+            [LOCALE] => en_US
+            [TIMESTAMP] => 2018-01-18T06:33:11Z
+            [CORRELATIONID] => 7efba9f69dc7c
+            [ACK] => Success
+            [VERSION] => 72.0
+            [BUILD] => 39206242
+        )
+
+    [__pid] => 12684
+)
+
+2018-01-18T07:04:06+00:00 DEBUG (7): Array
+(
+    [url] => https://api-3t.sandbox.paypal.com/nvp
+    [DoCapture] => Array
+        (
+            [AUTHORIZATIONID] => 2NP135792F621682T
+            [COMPLETETYPE] => Complete
+            [AMT] => 28.13
+            [CURRENCYCODE] => USD
+            [INVNUM] => 100000004
+            [METHOD] => DoCapture
+            [VERSION] => 72.0
+            [USER] => ****
+            [PWD] => ****
+            [SIGNATURE] => ****
+            [BUTTONSOURCE] => Magento_Cart_Community
+        )
+
+    [response] => Array
+        (
+            [AUTHORIZATIONID] => 2NP135792F621682T
+            [TIMESTAMP] => 2018-01-18T07:04:03Z
+            [CORRELATIONID] => 3e9aa9226e6e
+            [ACK] => Success
+            [VERSION] => 72.0
+            [BUILD] => 000000
+            [TRANSACTIONID] => 7N169646NJ7577911
+            [PARENTTRANSACTIONID] => 2NP135792F621682T
+            [TRANSACTIONTYPE] => cart
+            [PAYMENTTYPE] => instant
+            [ORDERTIME] => 2018-01-18T07:04:02Z
+            [AMT] => 28.13
+            [FEEAMT] => 1.12
+            [TAXAMT] => 2.14
+            [CURRENCYCODE] => USD
+            [PAYMENTSTATUS] => Completed
+            [PENDINGREASON] => None
+            [REASONCODE] => None
+            [SHIPPINGMETHOD] => Default
+            [PROTECTIONELIGIBILITY] => Eligible
+            [PROTECTIONELIGIBILITYTYPE] => ItemNotReceivedEligible,UnauthorizedPaymentEligible
+        )
+
+    [__pid] => 12684
+)
+
+2018-01-18T07:43:18+00:00 DEBUG (7): Array
+(
+    [url] => https://api-3t.sandbox.paypal.com/nvp
+    [getPalDetails] => Array
+        (
+            [METHOD] => getPalDetails
+            [VERSION] => 72.0
+            [USER] => ****
+            [PWD] => ****
+            [SIGNATURE] => ****
+            [BUTTONSOURCE] => Magento_Cart_Community
+        )
+
+    [response] => Array
+        (
+            [PAL] => 6JSU5Y536AVUS
+            [LOCALE] => en_US
+            [TIMESTAMP] => 2018-01-18T07:43:14Z
+            [CORRELATIONID] => df551ee766a35
+            [ACK] => Success
+            [VERSION] => 72.0
+            [BUILD] => 39206242
+        )
+
+    [__pid] => 12684
+)
+
+2018-01-18T07:44:30+00:00 DEBUG (7): Array
+(
+    [url] => https://api-3t.sandbox.paypal.com/nvp
+    [getPalDetails] => Array
+        (
+            [METHOD] => getPalDetails
+            [VERSION] => 72.0
+            [USER] => ****
+            [PWD] => ****
+            [SIGNATURE] => ****
+            [BUTTONSOURCE] => Magento_Cart_Community
+        )
+
+    [response] => Array
+        (
+            [PAL] => 6JSU5Y536AVUS
+            [LOCALE] => en_US
+            [TIMESTAMP] => 2018-01-18T07:44:27Z
+            [CORRELATIONID] => 91c7361d44037
+            [ACK] => Success
+            [VERSION] => 72.0
+            [BUILD] => 39206242
+        )
+
+    [__pid] => 12684
+)
+
+2018-01-18T07:45:22+00:00 DEBUG (7): Array
+(
+    [url] => https://api-3t.sandbox.paypal.com/nvp
+    [getPalDetails] => Array
+        (
+            [METHOD] => getPalDetails
+            [VERSION] => 72.0
+            [USER] => ****
+            [PWD] => ****
+            [SIGNATURE] => ****
+            [BUTTONSOURCE] => Magento_Cart_Community
+        )
+
+    [response] => Array
+        (
+            [PAL] => 6JSU5Y536AVUS
+            [LOCALE] => en_US
+            [TIMESTAMP] => 2018-01-18T07:45:20Z
+            [CORRELATIONID] => 40e084d840faa
+            [ACK] => Success
+            [VERSION] => 72.0
+            [BUILD] => 39206242
+        )
+
+    [__pid] => 12684
+)
+
+2018-01-18T07:45:33+00:00 DEBUG (7): Array
+(
+    [url] => https://api-3t.sandbox.paypal.com/nvp
+    [getPalDetails] => Array
+        (
+            [METHOD] => getPalDetails
+            [VERSION] => 72.0
+            [USER] => ****
+            [PWD] => ****
+            [SIGNATURE] => ****
+            [BUTTONSOURCE] => Magento_Cart_Community
+        )
+
+    [response] => Array
+        (
+            [PAL] => 6JSU5Y536AVUS
+            [LOCALE] => en_US
+            [TIMESTAMP] => 2018-01-18T07:45:31Z
+            [CORRELATIONID] => fe83951854f69
+            [ACK] => Success
+            [VERSION] => 72.0
+            [BUILD] => 39206242
+        )
+
+    [__pid] => 12684
+)
+
+2018-01-18T07:47:06+00:00 DEBUG (7): Array
+(
+    [url] => https://api-3t.sandbox.paypal.com/nvp
+    [getPalDetails] => Array
+        (
+            [METHOD] => getPalDetails
+            [VERSION] => 72.0
+            [USER] => ****
+            [PWD] => ****
+            [SIGNATURE] => ****
+            [BUTTONSOURCE] => Magento_Cart_Community
+        )
+
+    [response] => Array
+        (
+            [PAL] => 6JSU5Y536AVUS
+            [LOCALE] => en_US
+            [TIMESTAMP] => 2018-01-18T07:47:03Z
+            [CORRELATIONID] => 867b99e9cc8b4
+            [ACK] => Success
+            [VERSION] => 72.0
+            [BUILD] => 39206242
+        )
+
+    [__pid] => 12684
+)
+
+2018-01-18T07:50:15+00:00 DEBUG (7): Array
+(
+    [url] => https://api-3t.sandbox.paypal.com/nvp
+    [getPalDetails] => Array
+        (
+            [METHOD] => getPalDetails
+            [VERSION] => 72.0
+            [USER] => ****
+            [PWD] => ****
+            [SIGNATURE] => ****
+            [BUTTONSOURCE] => Magento_Cart_Community
+        )
+
+    [response] => Array
+        (
+            [PAL] => 6JSU5Y536AVUS
+            [LOCALE] => en_US
+            [TIMESTAMP] => 2018-01-18T07:50:12Z
+            [CORRELATIONID] => 2535509b79b7
+            [ACK] => Success
+            [VERSION] => 72.0
+            [BUILD] => 39206242
+        )
+
+    [__pid] => 12684
+)
+
+2018-01-18T08:05:22+00:00 DEBUG (7): Array
+(
+    [url] => https://api-3t.sandbox.paypal.com/nvp
+    [getPalDetails] => Array
+        (
+            [METHOD] => getPalDetails
+            [VERSION] => 72.0
+            [USER] => ****
+            [PWD] => ****
+            [SIGNATURE] => ****
+            [BUTTONSOURCE] => Magento_Cart_Community
+        )
+
+    [response] => Array
+        (
+            [PAL] => 6JSU5Y536AVUS
+            [LOCALE] => en_US
+            [TIMESTAMP] => 2018-01-18T08:05:19Z
+            [CORRELATIONID] => a52409e8c9cd9
+            [ACK] => Success
+            [VERSION] => 72.0
+            [BUILD] => 39206242
+        )
+
+    [__pid] => 12684
+)
+
+2018-01-18T08:57:01+00:00 DEBUG (7): Array
+(
+    [url] => https://api-3t.sandbox.paypal.com/nvp
+    [getPalDetails] => Array
+        (
+            [METHOD] => getPalDetails
+            [VERSION] => 72.0
+            [USER] => ****
+            [PWD] => ****
+            [SIGNATURE] => ****
+            [BUTTONSOURCE] => Magento_Cart_Community
+        )
+
+    [response] => Array
+        (
+            [PAL] => 6JSU5Y536AVUS
+            [LOCALE] => en_US
+            [TIMESTAMP] => 2018-01-18T08:56:57Z
+            [CORRELATIONID] => bc45068bb09ef
+            [ACK] => Success
+            [VERSION] => 72.0
+            [BUILD] => 39206242
+        )
+
+    [__pid] => 12684
+)
+
+2018-01-18T09:44:53+00:00 DEBUG (7): Array
+(
+    [url] => https://api-3t.sandbox.paypal.com/nvp
+    [getPalDetails] => Array
+        (
+            [METHOD] => getPalDetails
+            [VERSION] => 72.0
+            [USER] => ****
+            [PWD] => ****
+            [SIGNATURE] => ****
+            [BUTTONSOURCE] => Magento_Cart_Community
+        )
+
+    [response] => Array
+        (
+            [PAL] => 6JSU5Y536AVUS
+            [LOCALE] => en_US
+            [TIMESTAMP] => 2018-01-18T09:44:50Z
+            [CORRELATIONID] => 94641c0da8ae1
+            [ACK] => Success
+            [VERSION] => 72.0
+            [BUILD] => 39206242
+        )
+
+    [__pid] => 12684
+)
+
+2018-01-18T09:45:26+00:00 DEBUG (7): Array
+(
+    [url] => https://api-3t.sandbox.paypal.com/nvp
+    [getPalDetails] => Array
+        (
+            [METHOD] => getPalDetails
+            [VERSION] => 72.0
+            [USER] => ****
+            [PWD] => ****
+            [SIGNATURE] => ****
+            [BUTTONSOURCE] => Magento_Cart_Community
+        )
+
+    [response] => Array
+        (
+            [PAL] => 6JSU5Y536AVUS
+            [LOCALE] => en_US
+            [TIMESTAMP] => 2018-01-18T09:45:22Z
+            [CORRELATIONID] => 6a433dab927f5
+            [ACK] => Success
+            [VERSION] => 72.0
+            [BUILD] => 39206242
+        )
+
+    [__pid] => 12684
+)
+
+2018-01-18T09:46:20+00:00 DEBUG (7): Array
+(
+    [url] => https://api-3t.sandbox.paypal.com/nvp
+    [getPalDetails] => Array
+        (
+            [METHOD] => getPalDetails
+            [VERSION] => 72.0
+            [USER] => ****
+            [PWD] => ****
+            [SIGNATURE] => ****
+            [BUTTONSOURCE] => Magento_Cart_Community
+        )
+
+    [response] => Array
+        (
+            [PAL] => 6JSU5Y536AVUS
+            [LOCALE] => en_US
+            [TIMESTAMP] => 2018-01-18T09:46:18Z
+            [CORRELATIONID] => dac04e2bf13d9
+            [ACK] => Success
+            [VERSION] => 72.0
+            [BUILD] => 39206242
+        )
+
+    [__pid] => 12684
+)
+
+2018-01-22T07:52:14+00:00 DEBUG (7): Array
+(
+    [url] => https://api-3t.sandbox.paypal.com/nvp
+    [getPalDetails] => Array
+        (
+            [METHOD] => getPalDetails
+            [VERSION] => 72.0
+            [USER] => ****
+            [PWD] => ****
+            [SIGNATURE] => ****
+            [BUTTONSOURCE] => Magento_Cart_Community
+        )
+
+    [response] => Array
+        (
+            [PAL] => 6JSU5Y536AVUS
+            [LOCALE] => en_US
+            [TIMESTAMP] => 2018-01-22T07:52:13Z
+            [CORRELATIONID] => a9c6041d19c1
+            [ACK] => Success
+            [VERSION] => 72.0
+            [BUILD] => 39206242
+        )
+
+    [__pid] => 9300
+)
+

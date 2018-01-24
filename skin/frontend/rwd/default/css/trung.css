@@ -1,0 +1,92 @@
+@font-face {
+  font-family: 'opensans-semibold';
+  src: url("../fonts/opensans-semibold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'futuralt';
+  src: url("../fonts/futuralt.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'futura_std_light';
+  src: url("../fonts/futura_std_light.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+.hide-on-mobile {
+  display: none !important; }
+
+body {
+  font: 16px/1.35 'futuralt', 'FuturaStdLightRegular',Arial, Helvetica !important;
+  font-size: 16px !important;
+  color: #000 !important;
+  text-align: center !important; }
+
+.trung-top-header-container {
+  padding: 0;
+  background: #4c4c4c; }
+
+.trung-campaign-header-info {
+  background: none;
+  background-color: #bf2158;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  line-height: 1.5;
+  font-family: opensans-semibold;
+  padding-right: 10px;
+  padding-left: 10px; }
+  .trung-campaign-header-info .trung-campaign-info-content {
+    text-align: center;
+    color: #fff; }
+    .trung-campaign-header-info .trung-campaign-info-content a {
+      font-size: 11px;
+      color: #fff !important; }
+      .trung-campaign-header-info .trung-campaign-info-content a:hover {
+        text-decoration: none; }
+    .trung-campaign-header-info .trung-campaign-info-content .campaign-info-link {
+      display: block;
+      text-transform: uppercase; }
+      .trung-campaign-header-info .trung-campaign-info-content .campaign-info-link .icon {
+        display: inline-block;
+        width: 6px;
+        height: 8px;
+        background-image: url("../images/play-button.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+        vertical-align: middle;
+        margin-bottom: 2px;
+        margin-left: 4px; }
+
+.trung-free-ship .trung-block-left {
+  width: 100%;
+  float: left !important;
+  min-height: 30px; }
+  .trung-free-ship .trung-block-left .top-head {
+    padding-top: 6px;
+    float: none;
+    font-size: 12px;
+    margin-top: 0;
+    display: block; }
+    .trung-free-ship .trung-block-left .top-head .new-top-head {
+      display: block;
+      text-align: center; }
+      .trung-free-ship .trung-block-left .top-head .new-top-head p {
+        float: none;
+        display: inline-block;
+        margin: 0 5px 0 0;
+        padding-left: 5px;
+        font-size: 12px;
+        color: #a2a2a2; }
+        .trung-free-ship .trung-block-left .top-head .new-top-head p .checked_icon {
+          margin-right: 5px;
+          vertical-align: middle;
+          background-image: url("../images/bg_shipping.png");
+          background-repeat: no-repeat;
+          background-size: 22px auto;
+          background-position: center center;
+          margin-bottom: 4px;
+          width: 22px;
+          height: 15px;
+          display: inline-block; }
+
+/*# sourceMappingURL=trung.css.map */
