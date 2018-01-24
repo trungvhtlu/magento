@@ -28,7 +28,7 @@
  */
 ?>
 
-<div class="header-language-background">
+<!-- <div class="header-language-background">
     <div class="header-language-container">
         <div class="store-language-container">
             <?php echo $this->getChildHtml('store_language') ?>
@@ -38,18 +38,28 @@
 
         <p class="welcome-msg"><?php echo $this->getChildHtml('welcome') ?> <?php echo $this->getChildHtml('accountLinks') ?></p>
     </div>
-</div>
+</div> -->
 
 <header id="header" class="page-header">
     <div class="page-header-container">
-        <a class="logo" href="<?php echo $this->getUrl('') ?>">
-            <img src="<?php echo $this->getLogoSrc() ?>" alt="<?php echo $this->getLogoAlt() ?>" class="large" />
-            <img src="<?php echo $this->getLogoSrcSmall() ?>" alt="<?php echo $this->getLogoAlt() ?>" class="small" />
-        </a>
-
-        <?php // In order for the language switcher to display next to logo on smaller viewports, it will be moved here.
-              // See app.js for details ?>
-        <div class="store-language-container"></div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 trung-left-head">
+            <div class="trung-logo">
+                <a class="logo" href="<?php echo $this->getUrl('') ?>">
+                    <img src="<?php echo $this->getLogoSrc() ?>" alt="<?php echo $this->getLogoAlt() ?>" class="large" />
+                    <img src="<?php echo $this->getLogoSrcSmall() ?>" alt="<?php echo $this->getLogoAlt() ?>" class="small" />
+                </a>
+            </div>
+            <div class="trung-search-logo"></div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 trung-right-head">
+            <form id="search_mini_form" action="https://www.glamira.co.uk/catalogsearch/result/" method="get">
+                <div class="form-search">
+                    <input id="search" name="" value="" class="input-text" maxlength="128" placeholder="Search" autocomplete="off" type="text">
+                    <button type="submit" title="Go" class="button search-icon"><span><span>&nbsp;</span></span></button>
+                </div>
+            </form>
+        </div>
+        
 
         <!-- Skip Links -->
 
@@ -63,32 +73,12 @@
                 <span class="icon"></span>
                 <span class="label"><?php echo $this->__('Search'); ?></span>
             </a>
-            <div class="account-cart-wrapper">
-                    
-                    <div class="header-minicart">
-                        <?php echo $this->getChildHtml('minicart_head'); ?>
-                    </div>
-                    <a href="<?php echo $this->helper('customer')->getAccountUrl(); ?>" data-target-element="#header-account" class="skip-link skip-account">
-                        <span class="icon"></span>
-                        <span class="label"><?php echo $this->__('Account'); ?></span>
-                    </a>
-
-                    <!-- Cart -->
-
-            </div>
+          
         </div>
 
-        <!-- Navigation -->
 
-        <div id="header-nav" class="skip-content">
-            <?php echo $this->getChildHtml('topMenu') ?>
-        </div>
 
-        <!-- Search -->
 
-        <div id="header-search" class="skip-content">
-            <?php echo $this->getChildHtml('topSearch') ?>
-        </div>
 
         <!-- Account -->
 
@@ -97,7 +87,21 @@
         </div>
     </div>
 </header>
+        <!-- Navigation -->
 
+        <div id="header-nav" class="skip-content">
+            <div class="container">
+                <div class="content-header-nav">
+                    <div class="trung-upper-menu">
+                        upper-menu
+                    </div>
+                    <div class="trung-lower-menu">
+                        <?php echo $this->getChildHtml('topMenu') ?>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
 
 <?php echo $this->getChildHtml('topContainer'); ?>
 

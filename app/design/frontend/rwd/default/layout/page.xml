@@ -89,8 +89,22 @@
 
             <block type="page/html_notices" name="global_notices" as="global_notices" template="page/html/notices.phtml" />
             
+
+
+            <!-- trungvh -->
             <block type="core/template" name="trung_top_head" template="trung/top_head.phtml" /> <!-- trungvh -->
             <block type="core/template" name="trung_free_ship" template="trung/free_ship.phtml" /> <!-- trungvh -->
+            <block type="core/template" name="trung_banner" template="trung/banner.phtml" /> <!-- trungvh -->
+            <block type="core/template" name="trung_top_head_landingpage" template="trung/top_head_landing.phtml" /> <!-- trungvh -->
+            <block type="core/template" name="trung_banner_christmas" template="trung/banner_christmas.phtml" /> <!-- trungvh -->
+            <block type="core/template" name="trung_product_cat" template="trung/product_cat.phtml" /> <!-- trungvh -->
+            <block type="core/template" name="trung_news_glamira" template="trung/news_glamira.phtml" /> <!-- trungvh -->
+            <block type="core/template" name="trung_review_home" template="trung/review_home.phtml" /> <!-- trungvh -->
+            <block type="core/template" name="trung_explorer_more" template="trung/explorer_more.phtml" /> <!-- trungvh -->
+
+            <!-- trungvh -->
+
+
 
             <block type="page/html_header" name="header" as="header">
 

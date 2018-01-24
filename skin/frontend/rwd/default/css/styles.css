@@ -391,11 +391,11 @@ html {
   /* Prevent automatic scaling on iOS */
 }
 
-body {
+/* body {
   background: #FFFFFF;
   color: #000000;
   line-height: 1;
-}
+} */
 
 html,
 body,
@@ -483,7 +483,7 @@ a, button {
   touch-action: manipulation;
 }
 
-body,
+/* body,
 button,
 input,
 select,
@@ -494,7 +494,7 @@ textarea {
   font-size: 14px;
   line-height: 1.5;
 }
-
+ */
 a {
   color: #3399cc;
   text-decoration: none;

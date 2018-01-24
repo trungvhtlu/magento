@@ -19,6 +19,9 @@
 	        <action method="addItem"><type>skin_js</type><name>js/jquery.min.js</name></action> -->	
 
 		</reference>
+		<reference name="root">
+			
+		</reference>
 		
 		
 	</default>

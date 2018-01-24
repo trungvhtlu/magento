@@ -49,17 +49,56 @@
         <div class="trung-top-header-container">
             <?php echo $this->getChildHtml('trung_top_head') ?>
             <?php echo $this->getChildHtml('trung_free_ship') ?>
+            <?php echo $this->getChildHtml('header') ?>
         </div>
-            
-        <?php echo $this->getChildHtml('header') ?>
+
+        <div class="container-fluid nopad">
+                <?php echo $this->getChildHtml('trung_banner') ?>              
+        </div> 
+       
         <div class="main-container col1-layout">
-            <div class="main">
-                <?php echo $this->getChildHtml('breadcrumbs') ?>
-                <div class="col-main">
-                    <?php echo $this->getChildHtml('global_messages') ?>
-                    <?php echo $this->getChildHtml('content') ?>
+            <div class="container">
+                <div class="main">
+                    <div class="trung-main-content">
+                        <div class="trung-homepage-block">
+                            <div class="trung-landing-page">
+                                <div class="trung-top-head-landingpage">
+                                    <?php echo $this->getChildHtml('trung_top_head_landingpage') ?>
+                                </div>
+                                <div class="trung-little-banner">
+                                    <?php echo $this->getChildHtml('trung_banner_christmas') ?>
+                                </div>
+                                <div class="trung-product-cat">
+                                    <?php echo $this->getChildHtml('trung_product_cat') ?>
+                                </div>
+                                <div class="trung-news-glamira">
+                                    <?php echo $this->getChildHtml('trung_news_glamira') ?>
+                                </div>
+
+                                <div class="trung-review-home">
+                                    <?php echo $this->getChildHtml('trung_review_home') ?>
+                                </div>
+
+                                <div class="trung-explorer-more">
+                                    <?php echo $this->getChildHtml('trung_explorer_more') ?>
+                                </div>
+                               
+                                <div class="col-main">
+                                    <?php echo $this->getChildHtml('global_messages') ?>
+                                    <?php echo $this->getChildHtml('content') ?>
+                                </div>
+                            </div>
+                            <div class="trung-tab-seo">
+                                
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                    
                 </div>
             </div>
+                
         </div>
         <?php echo $this->getChildHtml('footer_before') ?>
         <?php echo $this->getChildHtml('footer') ?>
